@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 1000px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.nav-logo{
+    font-family:'poppins';
+    margin-right: 500px;
+}
+ul{
+    display: flex;
+}
+.nav-links{
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: 'open sans';
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+p, h2{
+    text-align: center;
+}
+p{
+    font-family: 'open sans';
+    font-weight: 400;
+}
+h2{
+    font-size: 3.8rem;
+    font-family: 'poppins';
+}
+
+.quotes_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.quotes_container img{
+    height: 50px;
+}
+.social-icons{
+    width: 100px;
+    position: fixed;
+    top: 450px;
+    bottom: 0px;
+    left: 10px;
+    right: auto;
+    z-index: 10;
+    font-size: 1.75em;
+}
+.social-icons ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-brands{
+    color: black;
+}
