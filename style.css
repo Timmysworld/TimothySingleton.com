@@ -27,6 +27,7 @@ ul li a{
     padding: 5px;
     font-size: 1.3rem;
     font-family: 'open sans';
+    color: black;
 }
 
 .header{
@@ -37,7 +38,7 @@ ul li a{
     height: 50%;
     margin: 0 auto;
 }
-p, h2{
+.header p, h2{
     text-align: center;
 }
 p{
@@ -75,4 +76,61 @@ h2{
 
 .fa-brands{
     color: black;
+}
+
+section{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+.about-header{
+    color: #f1cf63;
+    /* background-color: #343434; */
+    text-align: center;
+    font-family: 'Poppins';
+    line-height: 2.5rem;
+    padding-top: 5px;
+    padding-bottom: 11px    
+}
+
+.the{
+    margin-left: 40px;
+    font-size: 1.4em ;
+    font-family: Playfair Display;
+}
+
+.dod-rl{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.1em;
+}
+
+.dod-of{
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.5em;
+    vertical-align: middle;
+    margin-top: -0.4em;
+    display: inline-block;
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 15px 10px 15px;
+    padding: 5px;
+    /* border: 2px solid black; */
+}
+.text{
+    text-align: left;
+}
+/* current-project */
+.current-project{
+    display: flex;
 }
